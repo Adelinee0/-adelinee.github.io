@@ -1,0 +1,157 @@
+@font-face {
+    src: url('C:\Windows\Fonts\Montserrat.ttf');
+    font-family: "Montserrat";
+}
+
+p {
+    font-family: 'Montserrat', Arial
+}
+
+.header{
+    background-color: rgb(50, 77, 118);
+	padding: 10px 10px;
+}
+
+.c-1{
+    font-family: 'Montserrat', Arial
+    color: white;
+}
+
+.text-white  {
+    color: white;
+    overflow: hidden;
+    font-family: 'Montserrat', Arial
+}
+
+.head {
+    color: white;
+    padding: 10px 10px;
+    font-family: 'Montserrat', Arial
+}
+
+.collapsible {
+  background-color: rgb(50, 77, 118);
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 17px;
+  font-family: 'Montserrat', Arial
+}
+
+.active, .collapsible:hover {
+  background-color: rgb(16, 50, 103);
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: rgb(151, 167, 191);
+  font-family: 'Montserrat', Arial
+}
+
+.image-container {
+  display: flex;
+  background-image: url("code.jpg");
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+
+}
+
+.flex  {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 10px 15px;
+    background-color: rgb(50, 77, 118);
+    margin: 10px 10 10px;
+  }
+
+
+.row-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+  }
+
+.item{
+    height:60px;
+    width:calc( ( 100% - 40px ) / 2 );
+    margin:0px 10px 10px;
+}
+
+
+  .row {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+  }
+
+
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4 {
+    flex-grow: 0;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    padding-right: 20px;
+  }
+
+  .col-1 {
+
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+
+  .col-2 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+
+  .col-3 {
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+
+  .col-4 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  height: 15px;
+  background-color: rgb(151, 167, 191);
+}
+
+.skills {
+  text-align: right;
+  color: white;
+}
+
+
+.html {width: 90%;  height: 15px; background-color: rgb(64, 90, 130);}
+.css {width: 80%; height: 15px; background-color: rgb(64, 90, 130);}
+.js {width: 65%;  height: 15px; background-color: rgb(64, 90, 130)}
+.php {width: 60%; height: 15px; background-color: rgb(64, 90, 130)}
+
+
+
+
+
+
+
+
